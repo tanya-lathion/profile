@@ -1,0 +1,102 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  color:rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  color: #000000;
+}
+
+a {
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+  color: #e631b6;
+  font-weight: 200;
+  font-size: 16px;
+}
+a:hover {
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+  color: #998b8f;
+  font-weight: 200;
+  font-size: 16px;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  display: flex;
+  padding: 40px 30px;
+  width: 379px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #D8D8D8;
+  background: #FFF;
+}
+
+.img {
+  width: 132px;
+  height: 132px;
+  flex-shrink: 0;
+  border-radius: 132px;
+  background: url(https://media.licdn.com/dms/image/D4E03AQGYCTQt9bo5Gg/profile-displayphoto-shrink_800_800/0/1679482025968?e=1692835200&v=beta&t=KfA7KhKGlv3QzkOXeQFQ237ycV_m5Ue7A9NACNMQ9ok)
+}
+
+.btn {
+  display: flex;
+  padding: 18px 38px 19px 38px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #2A2C32;
+  color: #FFF;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
